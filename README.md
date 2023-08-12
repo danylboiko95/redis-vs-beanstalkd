@@ -21,6 +21,7 @@ node redis.js
 To run redis with **rdb** config change the port inside **redis.js** file on **6381**. for **aof** on **6380**
 
 According to the results, it turned out that beanstalkd is 3 times faster
+
 **Redis AOF**
 
 <img width="614" alt="image" src="https://github.com/danylboiko95/redis-vs-beanstalkd/assets/44903844/097cbeba-2594-4aa5-9e3f-837277075417">

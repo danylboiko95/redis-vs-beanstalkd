@@ -2,7 +2,7 @@ const fivebeans = require("fivebeans");
 const client = new fivebeans.client("127.0.0.1", 11300);
 client.connect();
 
-const totalJobs = 200000;
+const totalJobs = 400000;
 let jobsAdded = 0;
 
 const startTime = Date.now();

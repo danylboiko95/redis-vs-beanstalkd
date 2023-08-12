@@ -2,7 +2,8 @@ const { createClient } = require("ioredis");
 
 const channel = "notification_channel";
 const totalJobs = 400000;
-const port = 6382;
+const port = 6380;
+
 const host = "localhost";
 const publisher = createClient({
   host,
